@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #082B59 !important;
+}
+
+.nav-link,
+.btn-outline-success {
+    color: white !important;
+    border-color: white !important
+}
+.brew{font-family: 'Lato';
+font-size:x-large;
+display: flex;}
+.mainInfo {
+    display: flex;
+    flex-flow: column;
+    gap: 40px;
+    align-items: center;
+    text-align: justify;
+}
+.description{max-width: 400px;
+font-family:'Poppins';
+text-align: center;}
+
+.img-thumbnail{ display: flex;
+    max-width: 300px;
+}
+.h6{padding-left: 100px;}
+
+footer{background-color:#082B59;
+    display: flex;
+flex-direction: column;}
+    p{color:white!important;
+    display: flex;}
+    .media{display: flex;}
+
+@media all and (max-width: 544px){.img-thumbnail{max-width: 200px;} }

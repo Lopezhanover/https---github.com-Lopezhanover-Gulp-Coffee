@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #082B59 !important;
+}
+
+.nav-link,
+.btn-outline-success {
+    color: white !important;
+    border-color: white !important}
+
+.mainInfo{display: flex;
+    flex-flow: column;
+    gap: 40px;
+    align-items: center;
+    text-align: justify;}
+    
+    .description {max-width: 700px;}
+
+    footer{background-color:#082B59;
+    display: flex;
+flex-direction: column;}
+    p{color:white!important;
+    display: flex;}
+    .media{display: flex;}
